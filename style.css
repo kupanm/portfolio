@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  background-color: #0b1b33;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav{
+  background-color: #0b1b33;
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li{
+  height: 50px;
+}
+nav a{
+  height: 100px;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+nav a:hover{
+  color: #67bcb7;
+}
+nav li:first-child{
+  margin-right: auto;
+}
