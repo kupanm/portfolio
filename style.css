@@ -34,3 +34,40 @@ nav a:hover{
 nav li:first-child{
   margin-right: auto;
 }
+.greeting {
+  color: white;
+  font-size: 2em;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.content {
+  font-family: 'IBM Plex Sans', 'sans-serif';
+  color: white;
+  font-size: 10em;
+  text-align: center;
+  padding-left: 50px;
+}
+.linkedin-icon {
+  color: white; /* Start with white color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.linkedin-icon:hover {
+  color: blue; /* Change color to blue on hover */
+}
+
+footer {
+  background-color: #0b1b33;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed; /* Fixed position to stick to the bottom */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+}
+
+footer a:hover {
+  color: #67bcb7
+}
